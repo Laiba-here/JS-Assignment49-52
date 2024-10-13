@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT49-52</title>
+</head>
+<body>
+    <!-- QUESTION 1 -->
+    <!-- <form id="signupForm" onsubmit="displayData(event)">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="display-data" id="displayData" style="display: none;">
+        <h3>Form Data Submitted</h3>
+        <p id="displayName"></p>
+        <p id="displayEmail"></p>
+    </div> -->
+
+    <!-- QUESTION 2 -->
+    <!-- <div class="content">
+        <h3>Product 1</h3>
+        <p>Price: $50</p>
+        <p>This is a short description of the product.</p>
+        <p class="more">Here are the full details of the product. It has a high-quality build, comes with a 1-year warranty, and is available in multiple colors. The dimensions are 10x10x10 inches, and it weighs 2 pounds.</p>
+        <button class="read-more-btn" onclick="toggleDetails(this)">Read more</button>
+    </div>
+
+    <div class="content">
+        <h3>Product 2</h3>
+        <p>Price: $100</p>
+        <p>This is a brief overview of the product.</p>
+        <p class="more">This product comes with advanced features including a 2-year warranty, high durability, and an ergonomic design. It is available in four different colors and has adjustable settings.</p>
+        <button class="read-more-btn" onclick="toggleDetails(this)">Read more</button>
+    </div> -->
+
+
+    <!-- QUESATION 3  -->
+    <form id="studentForm">
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" required>
+        <label for="class">Class:</label>
+        <input type="text" id="class" required>
+        <button type="submit">Add Student</button>
+    </form>
+
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <div id="editForm">
+        <h3>Edit Student Details</h3>
+        <form>
+            <label for="editName">Student Name:</label>
+            <input type="text" id="editName">
+            <label for="editClass">Class:</label>
+            <input type="text" id="editClass">
+            <button type="button" onclick="saveEdit()">Save Changes</button>
+        </form>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
